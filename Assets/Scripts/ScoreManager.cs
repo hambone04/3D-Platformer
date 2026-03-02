@@ -26,6 +26,13 @@ public class ScoreManager : MonoBehaviour
         score += amount;
         UpdateUI();
     }
+	
+	public void SubtractScore(int amount)
+	{
+		if (score > 0) 
+			score -= amount;
+		UpdateUI();
+	}
 
     void UpdateUI()
     {
