@@ -13919,6 +13919,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Complete Exit
       objectReference: {fileID: 0}
+    - target: {fileID: 3962508709775848819, guid: 28306a5b51fc93a46bf945894479aa49, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962508709775848819, guid: 28306a5b51fc93a46bf945894479aa49, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962508709775848819, guid: 28306a5b51fc93a46bf945894479aa49, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103403670371362854, guid: 28306a5b51fc93a46bf945894479aa49, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103403670371362854, guid: 28306a5b51fc93a46bf945894479aa49, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103403670371362854, guid: 28306a5b51fc93a46bf945894479aa49, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 8244303637739133468, guid: 28306a5b51fc93a46bf945894479aa49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
