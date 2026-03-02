@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Score Manager
+  - Music
   layers:
   - Default
   - TransparentFX
