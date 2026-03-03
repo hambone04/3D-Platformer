@@ -8,12 +8,7 @@ public class VoicelineManager : MonoBehaviour
     [Header("Death Voicelines")]
     public AudioClip[] deathVoicelines;
 
-    [Header("Jump Voicelines")]
-    public AudioClip[] jumpVoicelines;
-
-    // Add more categories here as needed...
-
-    private AudioSource audioSource;
+	AudioSource audioSource;
     private int lastIndex = -1;
 
     void Awake()
