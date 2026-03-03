@@ -106,3 +106,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b26e671f9f1870e419f12c3e0c5456c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  scoreValue: 10
+  rotationAxis: {x: 0, y: 1, z: 0}
+  rotationSpeed: 90
+  voicelines:
+  - {fileID: 8300000, guid: 0cedd88898def1745850c593893eea52, type: 3}
+  - {fileID: 8300000, guid: 12072ff38e040264eb80b40c140925f0, type: 3}
+  - {fileID: 8300000, guid: ca4acd9f590823f4f82f542e29fba43d, type: 3}
+  - {fileID: 8300000, guid: 54c191ac26adedc4c93c17c01aece6ff, type: 3}

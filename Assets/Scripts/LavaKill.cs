@@ -15,11 +15,11 @@ public class LavaKill : MonoBehaviour
         // Check if the object that collided is the player
         if (other.CompareTag("Player"))
         {
+			other.GetComponent<VoicelineManager>()?.PlayDeathVoiceline();
 			scoreManager.SubtractScore(10);
             // Get the player's CharacterController or Rigidbody to disable/enable physics
             CharacterController controller = other.GetComponent<CharacterController>();
-
-            
+			
             if (controller != null)
             {
                 controller.enabled = false;

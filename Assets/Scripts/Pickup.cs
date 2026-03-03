@@ -6,17 +6,20 @@ public class Pickup : MonoBehaviour
     public Vector3 rotationAxis = Vector3.up;
     public float rotationSpeed = 90f;
 
-void Update()
-{
-    transform.Rotate(rotationAxis * rotationSpeed * Time.deltaTime);
-}
+    private bool collected = false;
 
+    void Update()
+    {
+        transform.Rotate(rotationAxis * rotationSpeed * Time.deltaTime);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !collected)
         {
+            collected = true;
             ScoreManager.Instance.AddScore(scoreValue);
+            other.GetComponent<VoicelineManager>()?.PlayPickupVoiceline();
             Destroy(gameObject);
         }
     }
