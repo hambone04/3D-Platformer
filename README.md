@@ -8,5 +8,6 @@
 - Scifi Wall: https://cdnb.artstation.com/p/assets/images/images/001/455/539/large/christian-westin-wall.jpg?1446727736
 - Warehouse Floor: https://filterforge.com/filters/11733.jpg
 ### Unity Packages
+- Starter Assets - ThirdPerson: https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526
+- WONILMAX Sci-Fi Barrel Pack: https://assetstore.unity.com/packages/package/285735
 - TextMesh Pro
-- WONILMAX Sci-Fi Barrel Pack
