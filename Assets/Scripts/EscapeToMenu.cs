@@ -18,6 +18,8 @@ public class EscapeToMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
 #endif
         {
+			Cursor.lockState = CursorLockMode.None;
+			Cursor.visible = true;
             LoadTargetScene();
         }
     }

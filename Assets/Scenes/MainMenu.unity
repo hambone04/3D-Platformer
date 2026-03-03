@@ -644,6 +644,7 @@ GameObject:
   - component: {fileID: 849666534}
   - component: {fileID: 849666533}
   - component: {fileID: 849666535}
+  - component: {fileID: 849666536}
   m_Layer: 0
   m_Name: Handler
   m_TagString: MainCamera
@@ -781,6 +782,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 849666528}
   m_Enabled: 1
+--- !u!114 &849666536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849666528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50172552c5c518348a16e163e0c39aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorScript
 --- !u!1 &1371033076
 GameObject:
   m_ObjectHideFlags: 0
